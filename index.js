@@ -7,7 +7,7 @@ const PORT = 3000;
 
 const coordinates_url = "http://api.openweathermap.org/geo/1.0/direct";
 const weather_url = "https://api.openweathermap.org/data/3.0/onecall/overview";
-const api_key = "e1604cbe8cc4c96a71db3c8929fdb567";
+const api_key = "yourKey";
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
