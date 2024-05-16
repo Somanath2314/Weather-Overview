@@ -8,8 +8,5 @@
         "src": "/(.*)",
         "dest": "index.js"
       }
-    ],
-    "public": {
-      "source": "public"
-    }
+    ]
   }
