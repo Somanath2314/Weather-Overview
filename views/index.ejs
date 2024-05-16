@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Overview</title>
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+    <!-- Place, message,
+        from form collect the place name, state Code optional, Country code needed
+    -->
+    <div class="heading">
+        <h1>Weather Overview</h1>
+    </div>
+    <div class="form">
+        <form action="/submit" method="POST">
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city"><br><br>
+            <label for="state">State Code (Ka-Karnataka):</label>
+            <input type="text" id="state" name="state"><br><br>
+            <label for="country">Country Code (IN-India):</label>
+            <input type="text" id="country" name="country"><br><br>
+            <input type="submit" value="Submit">
+          </form>
+    </div>
+      <!-- <h1>Hello</h1> -->
+</body>
+</html>
